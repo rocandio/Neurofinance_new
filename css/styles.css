@@ -74,7 +74,7 @@ span.style4{
 } 
 
 /* for link style change */	
-.block_topic_newsa a:link.on, a:visited.on {color: #904C39; text-decoration:none;}
+.block_topic_news a a:link.on, a:visited.on {color: #904C39; text-decoration:none;}
 .block_topic_news a:link.off, a:visited.off {color: #69563E; text-decoration:none;}
 .block_topic_news a:link.done, a:visited.done {color: #69563E; text-decoration:none;}
 .block_topic_news a.on:hover, a.off:hover, a.done:hover {text-decoration:underline;}
@@ -87,8 +87,12 @@ span.style4{
 	width: 1015px;
 	margin: 0px auto;
 }
-.block_topic_news { width:600px;}
-.block_topic_news .block_topic_post {float:left;}
+.left{
+	float: left;
+	max-width: 600px;
+}
+.left .block_topic_news { width:600px;}
+.left .block_topic_news .block_topic_post {float:left;}
 .block_topic_news .block_topic_post p.title {}
 
 
@@ -124,6 +128,7 @@ span.style4{
 .block_home_slider .flex-control-paging li a {width:12px; height:12px; display:block; background-repeat:no-repeat; background-image:url(../wp-content/themes/business-news/images/sprite_nav_3.png); text-indent:-9000px; cursor:pointer;}
 .block_home_slider .flex-control-paging li a.flex-active {background-position:right top;}
 
+.right .sidebar { float:right;}
 
 
 /*********************************************        Styles.css                       *********************************/

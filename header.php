@@ -3,10 +3,10 @@
 	<link rel="icon" href="images/neuro_ico.ico" type="image/ico" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
 	<script type="text/javascript" src="js/commoncode.js"></script>		
-	<!-- JS for the submenus
+	<!-- JS for the submenus-->
 	<script type="text/javascript" src="js/jquery-1.js"></script>
 	<script type="text/javascript" src="js/jquery_004.js"></script> 
-	<script type="text/javascript" src="js/jquery.js"></script>-->
+	<script type="text/javascript" src="js/jquery.js"></script>
 
 	<script type="text/javascript" src="js/base.js"></script>
 
