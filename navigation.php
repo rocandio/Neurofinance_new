@@ -66,7 +66,10 @@
 				
 				<li onmouseover=painttab(5); onmouseout=unpainttab(5);><a href="#" onclick="return false;" class="btn-neutab3">Tech</a>
 					<ul onmouseover=painttab(5); onmouseout=unpainttab(5);>
-						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="news.php?t=technology" >Tech News</a></li>
+						<li style="padding-top: 8px;"><a href="news.php?t=technology" >Technology</a></li>
+						<li style="padding-top: 8px;"><a href="news.php?t=tech news" >Tech News</a></li>
+						<!--	<li style="padding-top: 8px;"><a href="news.php?t=science news" >Science_news</a></li> -->
+						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="news.php?t=tech sector" >Tech Sector</a></li>
 					</ul> 
 				</li> 
 				

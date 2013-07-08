@@ -55,10 +55,6 @@
                                     # code...
                                     include 'news/business.php';
                                     break;
-                                case 'technology':
-                                    # code...
-                                    include 'news/technology.php';
-                                    break;
                                 case 'media':
                                     # code...
                                     include 'news/media.php';
@@ -86,6 +82,24 @@
                                 case 'US market':
                                     # code...
                                     include 'news/markets_us_market.php';
+                                    break;
+									
+																				// Tech Tab
+								case 'technology':
+                                    # code...
+                                    include 'news/technology.php';
+                                    break;
+                                case 'tech news':
+                                    # code...
+                                    include 'news/tech_news.php';
+                                    break;
+                                case 'science news':
+                                    # code...
+                                    include 'news/science_news.php';
+                                    break;
+                                case 'tech sector':
+                                    # code...
+                                    include 'news/tech_sector.php';
                                     break;
                                 default:
                                     echo "<div class=\"error_stock\">News not found...</div>";
