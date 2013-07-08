@@ -39,7 +39,7 @@
                                     break;
                                 case 'video reuters':
                                     # code...
-                                    include 'video/video_reuters.php';
+                                    include 'media/media_videos.php';
                                     break;
 
                                 
