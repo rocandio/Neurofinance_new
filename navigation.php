@@ -76,7 +76,7 @@
 						<li style="padding-top: 8px;"><a href="media.php?t=markets bloomberg" >Markets Bloomberg</a></li>
 						<li style="padding-top: 8px;"><a href="media.php?t=news bloomberg" >News Bloomberg</a></li>
 						<li style="padding-top: 8px;"><a href="media.php?t=first world" >First World</a></li>
-						<li style="padding-top: 8px;"><a href="media.php?t=media" >Economics</a></li>
+						<li style="padding-top: 8px;"><a href="media.php?t=economics" >Economics</a></li>
 					    <li style="padding-top: 8px; padding-bottom: 5px;"><a href="media.php?t=video reuters" >Video Reuters</a></li>
 					</ul> 
 				</li> 
