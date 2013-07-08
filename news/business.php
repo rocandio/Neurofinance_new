@@ -11,7 +11,7 @@
     <div style=" float: left; width:150px; height:90px; background-image: url(<?php echo $item->children('media',true)->attributes()->url;?>); background-size: 120px 90px;">
     </div></a>
     </div>
-    <div style="float: left;width:400px; padding-top:10px; padding-bottom:10px;">
+    <div style="float: left;width:400px;padding-top:10px; padding-bottom:10px;">
     <?php
     echo "<p class = \"publ_news\">".$item->pubDate."</p></br>";
     echo "<a class=\"links_news\" href=\"".$item->link."\" target=\"_blank\">".$item->title."</a>";

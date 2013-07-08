@@ -75,10 +75,6 @@
                                     # code...
                                     include 'news/markets_economy.php';
                                     break;
-                                case 'global market':
-                                    # code...
-                                    include 'news/markets_global.php';
-                                    break;
                                 case 'mergers':
                                     # code...
                                     include 'news/markets_mergers.php';
