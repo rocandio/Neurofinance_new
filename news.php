@@ -63,6 +63,34 @@
                                     # code...
                                     include 'news/media.php';
                                     break;
+                                case 'deals':
+                                    # code...
+                                    include 'news/markets_deals.php';
+                                    break;
+                                case 'bonds':
+                                    # code...
+                                    include 'news/markets_bonds.php';
+                                    break;
+                                case 'economy':
+                                    # code...
+                                    include 'news/markets_economy.php';
+                                    break;
+                                case 'global market':
+                                    # code...
+                                    include 'news/markets_global.php';
+                                    break;
+                                case 'mergers':
+                                    # code...
+                                    include 'news/markets_mergers.php';
+                                    break;
+                                case 'small business':
+                                    # code...
+                                    include 'news/markets_small_business.php';
+                                    break;
+                                case 'US market':
+                                    # code...
+                                    include 'news/markets_us_market.php';
+                                    break;
                                 default:
                                     echo "<div class=\"error_stock\">News not found...</div>";
                                     break;

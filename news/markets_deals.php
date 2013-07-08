@@ -5,7 +5,7 @@ $(document).ready(function(){
 </script>
     <?php
         $i=0;
-        $xml = simplexml_load_file('http://feeds.reuters.com/reuters/globalmarketsNews?format=xml'); //loading the document
+        $xml = simplexml_load_file('http://feeds.reuters.com/news/deals?format=xml'); //loading the document
         $items = $xml->channel->item; //gets the title of the document.     
         echo "<article  class=\"block_topic_post\">";
         foreach($items as $item){

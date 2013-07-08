@@ -33,7 +33,14 @@
 				
 				<li onmouseover=painttab(2); onmouseout=unpainttab(2);><a href="#" onclick="return false;" class="btn-neuvid">Markets</a>
 					<ul onmouseover=painttab(2); onmouseout=unpainttab(2);>
-						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="news.php?t=markets" >Markets News</a></li>
+						<li style="padding-top: 8px;"><a href="news.php?t=markets" >Markets News</a></li>
+						<li style="padding-top: 8px;"><a href="news.php?t=deals" >Deals News</a></li>
+						<li style="padding-top: 8px;"><a href="news.php?t=bonds" >Bonds News</a></li>
+						<li style="padding-top: 8px;"><a href="news.php?t=economy" >Economy News</a></li>
+						<li style="padding-top: 8px;"><a href="news.php?t=global market" >Global Market News</a></li>
+						<li style="padding-top: 8px;"><a href="news.php?t=mergers" >Mergers News</a></li>
+						<li style="padding-top: 8px;"><a href="news.php?t=small business" >Small Business News</a></li>
+						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="news.php?t=US markets">US Markets</a></li>
 					</ul> 
 				</li> 
 				
@@ -93,7 +100,9 @@
 				</li> 
 			</ul>
 		</div>
-		<div id="SubHeader"><span style="font-family: 'Didact Gothic',sans-serif; font-size: 13px; color: #fff"><strong style="font-size: 16px;">Fewer duplicates, more accurate returns, faster results, Frequent Searcher Rewards for gift certificates. Join now!</strong></span></div>
+		<div id="SubHeader">
+			<div class = "stock_search"></div>
+			<span style="font-family: 'Didact Gothic',sans-serif; font-size: 13px; color: #fff"><strong style="font-size: 16px;">Fewer duplicates, more accurate returns, faster results, Frequent Searcher Rewards for gift certificates. Join now!</strong></span></div>
 		<!-- /HeaderNavigation -->
 	</div>
 </div>
