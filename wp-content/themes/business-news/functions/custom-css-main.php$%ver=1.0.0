@@ -1,0 +1,4 @@
+h1, h2, h3, h4, h5, h6 { font-family: "Tahoma", Arial, Helvetica, sans-serif !important; }
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-family: "Tahoma", Arial, Helvetica, sans-serif !important; } 
+nav.main_menu ul#main-primary-menu li a { font-family: "Arial", Arial, Helvetica, sans-serif !important; } 
+nav.secondary_menu ul#main-secondary-menu li a { font-family: "Arial", Arial, Helvetica, sans-serif !important; } 

@@ -1,0 +1,47 @@
+<!doctype html>
+
+<html>
+
+    <head>
+
+        <meta charset="utf-8">
+
+
+        <link rel="stylesheet" href="public/css/reset.css" type="text/css">
+        <link rel="stylesheet" href="../public/css/metallic.css" type="text/css">
+        <link rel="stylesheet" href="public/css/calendar.css" type="text/css">
+        <link type="text/css" rel="stylesheet" href="libraries/syntaxhighlighter/public/css/shCoreDefault.css">
+
+        <script type="text/javascript" src="libraries/syntaxhighlighter/public/javascript/XRegExp.js"></script>
+        <script type="text/javascript" src="libraries/syntaxhighlighter/public/javascript/shCore.js"></script>
+        <script type="text/javascript" src="libraries/syntaxhighlighter/public/javascript/shLegacy.js"></script>
+        <script type="text/javascript" src="libraries/syntaxhighlighter/public/javascript/shBrushJScript.js"></script>
+
+		<script type="text/javascript" src="public/javascript/jquery-1.10.1.js"></script>
+        <script type="text/javascript" src="../public/javascript/zebra_datepicker.js"></script>
+
+        <script type="text/javascript">
+            SyntaxHighlighter.defaults['toolbar'] = false;
+            SyntaxHighlighter.all();
+			$(document).ready(function() {
+				$('#startDate').Zebra_DatePicker();
+				$('#endDate').Zebra_DatePicker();
+			}
+        </script>
+
+    </head>
+
+    <body>
+
+        <div class="main-wrapper">
+            <strong>Start Date</strong>
+            <form action="javascript:void(0)" method="post">
+				<div><input id="datepicker-example1" type="text"></div>
+            </form>
+			<strong>End Date</strong>
+            <form action="javascript:void(0)" method="post">
+				<div><input id="datepicker-example2" type="text"></div>
+            </form>
+		</div>
+	</body>
+</html>

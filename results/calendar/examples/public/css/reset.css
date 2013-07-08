@@ -1,0 +1,7 @@
+/* = FONT STACKS
+----------------------------------------------------------------------------------------------------------------------*/
+body    { font-family: Geneva, 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif } /* "wide" sans serif */
+
+ol.default,
+ul.default ol,
+ol.default ol   { list-style-type: decimal }
