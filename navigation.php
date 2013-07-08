@@ -73,7 +73,11 @@
 				
 				<li onmouseover=painttab(6); onmouseout=unpainttab(6);><a href="#" onclick="return false;" class="btn-neusmart1">Media</a>
 					<ul onmouseover=painttab(6); onmouseout=unpainttab(6);>
-					    <li style="padding-top: 8px; padding-bottom: 5px;"><a href="news.php?t=media" >VideoPodcast</a></li>
+						<li style="padding-top: 8px;"><a href="media.php?t=markets bloomberg" >Markets Bloomberg</a></li>
+						<li style="padding-top: 8px;"><a href="media.php?t=news bloomberg" >News Bloomberg</a></li>
+						<li style="padding-top: 8px;"><a href="media.php?t=first world" >First World</a></li>
+						<li style="padding-top: 8px;"><a href="media.php?t=media" >Economics</a></li>
+					    <li style="padding-top: 8px; padding-bottom: 5px;"><a href="media.php?t=video reuters" >Video Reuters</a></li>
 					</ul> 
 				</li> 
 				
