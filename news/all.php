@@ -6,12 +6,12 @@
     echo "<article  class=\"block_topic_post\">";
     foreach($items as $item){ if($i<10){ echo "<div id=\"news$i\">";$i++;
     ?>
-    <div style="float: left; width:200px; height:145px;">
+    <div style="float: left; width:200px;">
     <a href="<?php echo $item->link;?>" target="_blank">
-    <div style=" margin: auto; width:150px; height:90px; background-image: url(<?php echo $item->children('media',true)->attributes()->url;?>); background-size: 120px 90px;">
+    <div style="float: left; width:150px; height:90px; background-image: url(<?php echo $item->children('media',true)->attributes()->url;?>); background-size: 120px 90px;">
     </div></a>
     </div>
-    <div style="float: left;width:400px; height:145px;">
+    <div style="float: left;width:400px;padding-top:10px; padding-bottom:10px;">
     <?php
     echo "<p class = \"publ_news\">".$item->pubDate."</p></br>";
     echo "<a class=\"links_news\" href=\"".$item->link."\" target=\"_blank\">".$item->title."</a>";

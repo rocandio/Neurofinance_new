@@ -72,9 +72,9 @@
 			}
 		}
 	</script>
-	<!-- Skitter JS -->
+	<!-- Skitter JS
 	<script type='text/javascript' language='javascript' src='wp-content/themes/skitter_js/jquery-1.6.3.min.js'></script>
-	<script type='text/javascript' language='javascript' src='wp-content/themes/skitter_js/jquery.easing.1.3.js'></script>
+	<script type='text/javascript' language='javascript' src='wp-content/themes/skitter_js/jquery.easing.1.3.js'></script> -->
 	<script type='text/javascript' language='javascript' src='wp-content/themes/skitter_js/jquery.animate-colors-min.js'></script>
 	<script type='text/javascript' language='javascript' src='wp-content/themes/skitter_js/jquery.skitter.min.js'></script>
 	<script type='text/javascript' language='javascript'>
