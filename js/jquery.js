@@ -1,6 +1,6 @@
 // jQuery - Nav / Book Gui - RCS 09.24.10
-
 // before dome ready
+$.noConflict();
 jQuery(document).ready(function(){
 	
 			// PNG Fix IE6

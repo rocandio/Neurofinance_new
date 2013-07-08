@@ -41,13 +41,11 @@ div#HeaderContent{ width: 1050px; margin: 0 auto; height: 190px; background: url
 div#SubHeader{padding-left: 100px; float: left; margin-top:10px; height: 20px;}
 
 div#HomeGalleryNavigation{ 
-	width: 600px;
-	height: 112px;
+	margin-top: 18px;
+	margin-left: 1px;
 	/*background: url(../images/Neuromama_Finance.png) center no-repeat;*/
-	background-size: 600px 112px;
-	top: 20px;
-	position: relative;
-	margin: 0 auto;
+	
+	
 }
 
 span.style1{
@@ -492,11 +490,12 @@ a {
         width: 200px;       
         float: right;
         padding-right: 50px;
+        margin-top: 5px;
        
     }
     
     .search_neuro input {
-        width: 150px;
+        width: 154px;
         height: 20px;
         padding: 5px 2px;
         float: left;    
@@ -569,7 +568,7 @@ a {
         border-style: solid solid solid none;
         border-color: transparent #d83c3c transparent;
         top: 3px;
-        left: -9px;
+        left: -8px;
     }
     
     .search_neuro button:hover:before{

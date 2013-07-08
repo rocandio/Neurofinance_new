@@ -22,6 +22,7 @@
 		<!-- Navigation Items -->
 		<div id="HeaderNavigation">
 			<!-- Tabs Panel -->
+			
 			<ul id="nav">
 			
 				<li onmouseover=painttab(1); onmouseout=unpainttab(1);><a href="#" onclick="return false;" class="btn-neuinf">Home</a>
@@ -107,7 +108,9 @@
 			</ul>
 		</div>
 		<div id="SubHeader">
-			<div class = "stock_search"></div>
+			<div class = "stock_search">
+				
+			</div>
 			<span style="font-family: 'Didact Gothic',sans-serif; font-size: 13px; color: #fff"><strong style="font-size: 16px;">Fewer duplicates, more accurate returns, faster results, Frequent Searcher Rewards for gift certificates. Join now!</strong></span></div>
 		<!-- /HeaderNavigation -->
 	</div>

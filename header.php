@@ -2,7 +2,7 @@
 	<link rel="shortcut icon" href="images/neuro_ico.ico" type="image/x-icon" />
 	<link rel="icon" href="images/neuro_ico.ico" type="image/ico" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
-	<script type="text/javascript" src="js/commoncode.js"></script>		
+			
 	<!-- JS for the submenus-->
 	<script type="text/javascript" src="js/jquery-1.js"></script>
 	<script type="text/javascript" src="js/jquery_004.js"></script> 
@@ -72,9 +72,10 @@
 			}
 		}
 	</script>
-	<!-- Skitter JS
+	<!-- Skitter JS -->
+	<script type="text/javascript" src="js/commoncode.js"></script>
 	<script type='text/javascript' language='javascript' src='wp-content/themes/skitter_js/jquery-1.6.3.min.js'></script>
-	<script type='text/javascript' language='javascript' src='wp-content/themes/skitter_js/jquery.easing.1.3.js'></script> -->
+	<script type='text/javascript' language='javascript' src='wp-content/themes/skitter_js/jquery.easing.1.3.js'></script>
 	<script type='text/javascript' language='javascript' src='wp-content/themes/skitter_js/jquery.animate-colors-min.js'></script>
 	<script type='text/javascript' language='javascript' src='wp-content/themes/skitter_js/jquery.skitter.min.js'></script>
 	<script type='text/javascript' language='javascript'>

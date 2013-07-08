@@ -7,7 +7,13 @@
 		<?php include 'navigation.php';?>
 		<div id="PageContainerOuter">
 			<div id="PageContainer">
-				<div id="HomeGalleryNavigation"></div>
+				<div id="HomeGalleryNavigation">
+                    
+                    <?php
+                        include 'Banners/Banner5/index.html'; 
+                    ?>
+
+                </div>
 				<?php //include 'info1.php';?>
 				<div class="inner">
 					<div class="markets_real_time" >

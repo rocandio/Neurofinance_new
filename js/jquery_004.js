@@ -1,3 +1,4 @@
+
 jQuery.fn.supersleight = function(settings) {
 	settings = jQuery.extend({
 		imgs: true,
