@@ -2,9 +2,9 @@
 	<div id="HeaderContent">
 		<div id="Branding">
 			<div style="float: left; height: 29px;">
-				<a href="#">
-					<div style="position: relative; left: 17px; float: left; height: 29px;">
-						<img src="images/NeuroMama_small.png" alt="NEUROMAMA" height="31" width="108">
+				<a href="http://neuromama.com/" target="_blank">
+					<div style="position: relative; left: 17px; float: left; height: 32px;">
+						<img src="images/NeuroMama_small.png" alt="NEUROMAMA" height="32">
 					</div>
 				</a>
 				<span style="position: relative; left: 25px; font-family: 'Didact Gothic', sans-serif; font-size: 18px; color: #ffffff">The 21st Century Search Engine, Based on Neuro Technology.</span>
@@ -25,10 +25,8 @@
 			
 			<ul id="nav">
 			
-				<li onmouseover=painttab(1); onmouseout=unpainttab(1);><a href="#" onclick="return false;" class="btn-neuinf">Home</a>
-					<ul onmouseover=painttab(1); onmouseout=unpainttab(1);>
-						<li style="padding-top: 8px; padding-bottom: 5px;"><a href=" " >12</a></li>
-					</ul> 
+				<li onmouseover=painttab(1); onmouseout=unpainttab(1);><a href="index.php" class="btn-neuinf">Home</a>
+					
 				</li> 
 				
 				
@@ -109,9 +107,14 @@
 		</div>
 		<div id="SubHeader">
 			<div class = "stock_search">
-				
+				<form class="searchform" name="ss"action="stock_search.php" method="get">
+                    <input class="searchfield" type="text" id="symbol" name="s" value="" placeholder="Stock Symbol..." />
+                    <input value="su" name="o" style="display:none"/>
+                    <input class="searchbutton" id='find_symbol' value="Go"  type="submit"/>
+                </form>
 			</div>
-			<span style="font-family: 'Didact Gothic',sans-serif; font-size: 13px; color: #fff"><strong style="font-size: 16px;">Fewer duplicates, more accurate returns, faster results, Frequent Searcher Rewards for gift certificates. Join now!</strong></span></div>
+			<span style="font-family: 'Didact Gothic',sans-serif; font-size: 14px; color: #fff"><strong>Fewer duplicates, more accurate returns, faster results, Frequent Searcher Rewards for gift certificates. Join now!</strong></span></div>
+			
 		<!-- /HeaderNavigation -->
 	</div>
 </div>

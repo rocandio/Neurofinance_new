@@ -1,4 +1,3 @@
-</br></br>	
 <?php
 	#$date = "\"".date("Y").'-'.date("m")."\"";
 	$options= options($symbol,'select * from yahoo.finance.options where symbol=',$date);
@@ -12,7 +11,7 @@
 			
 			echo "<div class=\"op_table\">Call options</div>";
 ?>
-<table id="hi" style="margin-bottom: 20px;">
+<table class="hi" style="margin-bottom: 20px;">
 	<tbody>
 		<tr>
 			<th scope="col" align="left">Strike</th>
@@ -30,7 +29,7 @@
 				        ?>
 				            <tr>
 							<td><?PHP echo $options[$c]->strikePrice;?></td>
-							<td><a href="results/forms"> <?PHP echo $options[$c]->symbol;?></a></td>
+							<td><a href=" "> <?PHP echo $options[$c]->symbol;?></a></td>
 							<td><?PHP echo $options[$c]->lastPrice;?></td>
 							<td><?PHP 
 								if(($options[$c]->change) > 0){
@@ -67,7 +66,7 @@
 <?php 
 	echo "<div class=\"op_table\">Put options</div>";
 ?>
-<table id="hi" style="margin-bottom: 20px;">
+<table class="hi" style="margin-bottom: 20px;">
 	<tbody>
 		<tr>
 			<th scope="col" align="left">Strike</th>

@@ -36,70 +36,70 @@
 					<a href="stock_search.php?s=<?php echo $symbol;?>&o=hl">Headlines</a>
 				</li>
 				<li>
-					<a href="/q/p?s=GOOG+Press+Releases">Press Releases</a>
+					<a href="#">Press Releases</a>
 				</li>
 				<li>
-					<a href="/q/ce?s=GOOG+Company+Events">Company Events</a>
+					<a href="#">Company Events</a>
 				</li>
 				<li>
-					<a href="/mb/GOOG/">Message Boards</a>
+					<a href="#">Message Boards</a>
 				</li>
 				<li>
-					<a href="/marketpulse/GOOG">Market Pulse</a>
+					<a href="#">Market Pulse</a>
 				</li>
 			</ul>
 			<h3>Company</h3>
 			<ul>
 				<li>
-					<a href="/q/pr?s=GOOG+Profile">Profile</a>
+					<a href="#">Profile</a>
 				</li>
 				<li><a href="stock_search.php?s=<?php echo $symbol;?>&o=ks">Key Statistics</a></li>
 				<li>
-					<a href="/q/sec?s=GOOG+SEC+Filings">SEC Filings</a>
+					<a href="#">SEC Filings</a>
 				</li>
 				<li>
-					<a href="/q/co?s=GOOG+Competitors">Competitors</a>
+					<a href="#">Competitors</a>
 				</li>
 				<li>
-					<a href="/q/in?s=GOOG+Industry">Industry</a>
+					<a href="#">Industry</a>
 				</li>
 				<li>
-					<a href="/q/ct?s=GOOG+Components">Components</a>
+					<a href="#">Components</a>
 				</li>
 			</ul>
 			<h3>Analyst Coverage</h3>
 			<ul>
 				<li>
-					<a href="/q/ao?s=GOOG+Analyst+Opinion">Analyst Opinion</a>
+					<a href="#">Analyst Opinion</a>
 				</li>
 				<li>
-					<a href="/q/ae?s=GOOG+Analyst+Estimates">Analyst Estimates</a>
+					<a href="#">Analyst Estimates</a>
 				</li>
 				<li>
-					<a href="/q/rr?s=GOOG+Research+Reports">Research Reports</a>
+					<a href="#">Research Reports</a>
 				</li>
 			</ul>
 			<h3>Ownership</h3>
 			<ul>
 				<li>
-					<a href="/q/mh?s=GOOG+Major+Holders">Major Holders</a>
+					<a href="#">Major Holders</a>
 				</li>
 				<li>
-					<a href="/q/it?s=GOOG+Insider+Transactions">Insider Transactions</a>
+					<a href="#">Insider Transactions</a>
 				</li>
 				<li>
-					<a href="/q/ir?s=GOOG+Insider+Roster">Insider Roster</a>
+					<a href="#">Insider Roster</a>
 				</li>
 			</ul>
 			<h3>Financials</h3>
 			<ul>
 				<li>
-					<a href="/q/is?s=GOOG+Income+Statement&amp;annual">Income Statement</a>
+					<a href="#">Income Statement</a>
 				</li>
-				<li><a href="/q/bs?s=GOOG+Balance+Sheet&amp;annual">Balance Sheet</a>
+				<li><a href="#">Balance Sheet</a>
 				</li>
 				<li>
-					<a href="/q/cf?s=GOOG+Cash+Flow&amp;annual">Cash Flow</a>
+					<a href="#S">Cash Flow</a>
 				</li>
 			</ul>
 		</div>

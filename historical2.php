@@ -1,5 +1,5 @@
 <?php 
-    require 'functions/YQL_functions.php';
+	require 'functions/YQL_functions.php';
     #$info=quotes($symbol,'select * from yahoo.finance.quotes where symbol=');
     #$info_keys=keystats($symbol,'select * from yahoo.finance.keystats where symbol=');
     $startDate = (is_null($_GET['start']) ? '2010-01-01' : $_GET['start']);
@@ -21,26 +21,44 @@
     $symbol = $_GET['s'];
     $info=quotes($symbol,'select * from yahoo.finance.quotes where symbol=');
 ?>
-<html>
-	<?php include 'header.php';?>
+<!DOCTYPE html>
+<html lang="EN-US">
+    <?php
+        include 'header.php';
+    ?>
+    <body class="custom-background">
+        <div class="wrapper sticky_footer" id="top">
+            <!-- HEADER BEGIN -->
+           <?php 
+            include 'head.php';
+           ?>
+        <link rel="stylesheet" href="results/calendar/examples/public/css/reset.css" type="text/css">
+        <link rel="stylesheet" href="results/calendar/public/css/metallic.css" type="text/css">
+        <link rel="stylesheet" href="results/calendar/examples/public/css/calendar.css" type="text/css">
+        <link type="text/css" rel="stylesheet" href="results/calendar/examples/libraries/syntaxhighlighter/public/css/shCoreDefault.css">
 
-	<body>
-		<?php include 'navigation.php';?>
-		<div id="PageContainerOuter">
-			<div id="PageContainer">
-				<div id="HomeGalleryNavigation">
-                    
-                    <?php
-                        include 'Banners/Banner5/index.html'; 
-                    ?>
-                </div>
-				<?php //include 'info1.php';?>
-				<div class="inner">
-					<div class="markets_real_time" >
-	                    <script src="http://markets.financialcontent.com/stocks?Module=tickerbar&Output=JS"></script>
-	                </div>
-					<div class="left">
-                        <div class = "summary">
+        <script type="text/javascript" src="results/calendar/examples/public/javascript/jquery-1.10.1.js"></script>
+        <script type="text/javascript" src="results/calendar/public/javascript/zebra_datepicker.js"></script>
+        <script type="text/javascript" src="results/calendar/examples/public/javascript/core.js"></script>
+
+        <script type="text/javascript">
+            SyntaxHighlighter.defaults['toolbar'] = false;
+            SyntaxHighlighter.all();
+        </script>
+
+
+            <!-- HEADER END -->
+            
+            <!-- CONTENT BEGIN -->
+            <div id="content"  class="right_sidebar">
+                
+                <div class="inner">
+                    <div class="markets_real_time" style="width:960px; padding:0px 9px; border: 2px solid rgb(234, 234, 234);">
+                        <script src="http://markets.financialcontent.com/stocks?Module=tickerbar&Output=JS"></script>
+                    </div>
+                    <div class="general_content">
+                        <div class="main_content">
+                        	<div class = "summary">
                                 <div id = "result_query" class = "result_query">
                                     <?php
                                         if (!$symbol=="") {
@@ -121,10 +139,9 @@
                                       
                                     ?>
                                 </div>
+                        	</div>      
                         </div>
-	            	</div>
-	            	<div class="right">
-	            		 <div class="sidebar">
+                        <div class="sidebar">
                         <?php
                         if (!$symbol=="") {
                             # code...
@@ -147,9 +164,19 @@
                         ?>
                         </div>
                         <div class="clearboth"></div>
-	            	</div>
+                    </div>
                 </div>
-			</div>
-		</div>
-	</body>
+            </div>
+            <!-- CONTENT END -->
+            
+            <!-- FOOTER BEGIN -->
+            <?php 
+                include 'footer.php';
+            ?>
+            <!-- FOOTER END -->
+        </div>
+    </div>
+        <!-- POPUP BEGIN -->
+        
+    </body>
 </html>

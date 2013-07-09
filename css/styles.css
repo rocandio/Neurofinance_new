@@ -38,7 +38,7 @@ div#HeaderContainer {
 }
 
 div#HeaderContent{ width: 1050px; margin: 0 auto; height: 190px; background: url(../images/button/Header-Background.png) top center no-repeat; }
-div#SubHeader{padding-left: 100px; float: left; margin-top:10px; height: 20px;}
+div#SubHeader{ float: left; margin-top:10px; height: 20px;}
 
 div#HomeGalleryNavigation{ 
 	margin-top: 18px;
@@ -126,7 +126,7 @@ span.style4{
 .block_home_slider .flex-control-paging li a {width:12px; height:12px; display:block; background-repeat:no-repeat; background-image:url(../wp-content/themes/business-news/images/sprite_nav_3.png); text-indent:-9000px; cursor:pointer;}
 .block_home_slider .flex-control-paging li a.flex-active {background-position:right top;}
 
-.right .sidebar { float:right;}
+.right .sidebar { float:right;position:relative;}
 
 
 /*********************************************        Styles.css                       *********************************/
@@ -186,8 +186,8 @@ table.main_keys_title td {
 
 
 
-.charts a:link {color: #000; font-weight: bold;}
-.charts a:visited {color: #000; font-weight: bold;}
+.charts a:link { font-weight: bold;}
+.charts a:visited {}
 .charts a:active {}
 .charts a:hover {text-decoration: underline; color: blue;}
 .charts{
@@ -414,16 +414,17 @@ table.main_keys_title td {
 			opacity: 1;
 		}
 /*TABLE RESULTS*/
-#hi table { margin: 1em; border-collapse: separate; }
-#hi td { padding-left: 10px; padding-right: 18px; font-style:bold;color: #000; border: 1px #ccc solid;border-collapse: separate; font-family: consolas; text-align: right;}
-#hi th { padding: .3em; border: 0px #ccc solid; border-collapse: inherit;font-family: 'Lato';
+.hi table { border-collapse: inherit; }
+.hi td { padding-left: 5px; padding-right: 13px; font-style:bold;color: #000; border: 1px #ccc solid;border-collapse: separate; font-family: consolas; text-align: right;}
+.hi th { padding: .3em; border: 0px #ccc solid; border-collapse: inherit;font-family: 'Lato';
 font-weight: 200;
-font-size: 16px; }
-#hi thead {  }
-#hi tbody {
+font-size: 14px; }
+.hi thead {  }
+.hi tbody {
+	width: 500px;
 }
-#hi tr.hi { background: #c4c4c4; }
-#hi td:hover{
+.hi tr.hi { background: #c4c4c4; }
+.hi td:hover{
 	color: #fff;
 			text-shadow: 0 1px 0 rgba(0, 0, 0, .2);
 			background: #f06343;
@@ -545,7 +546,7 @@ a {
         font: bold 10px 'lucida sans', 'trebuchet MS', 'Tahoma';
         color: #fff;
         text-transform: uppercase;
-        background: #d83c3c;
+        background: #0093BF;
         -moz-border-radius: 0 3px 3px 0;
         -webkit-border-radius: 0 3px 3px 0;
         border-radius: 0 3px 3px 0;      
@@ -566,7 +567,7 @@ a {
         position: absolute;
         border-width: 8px 8px 8px 0;
         border-style: solid solid solid none;
-        border-color: transparent #d83c3c transparent;
+        border-color: transparent #0093BF transparent;
         top: 3px;
         left: -8px;
     }
@@ -649,23 +650,22 @@ text-decoration: none;
 }
 /* search form 
 -------------------------------------- */
+.stock_search{
+	float: left;
+	width: 200px;
+}
 .searchform {
-	display: inline-block;
-	zoom: 1; /* ie7 hack for display:inline-block */
-	*display: inline;
-	padding: 5.5px 10px;
-	
-	
+	padding-left: 15px;
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed'); /* ie7 */
 	-ms-filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed'); /* ie8 */
 }
 .searchform input {
-	font: normal 10px/100% Arial, Helvetica, sans-serif;
+	font: normal 12px/100% Arial, Helvetica, sans-serif;
 }
 .searchform .searchfield {
 	background: #fff;
 	padding: 6px 6px 6px 8px;
-	width: 80px;
+	width: 120px;
 	border: solid 1px #bcbbbb;
 	outline: none;
 

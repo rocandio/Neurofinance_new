@@ -86,6 +86,7 @@
                 $('.poweredby').hide();
                 $('.fc-getquote1').hide();
                 $('.fcadunithide').hide();
+                $('.p_news a img').hide();
                 $('.box_skitter_large').skitter({
                     theme: 'clean',
                     numbers_align: 'center',
@@ -95,5 +96,21 @@
                 });
                 
             });
+            $(document).load(function() {
+                $('.p_news a img').hide();
+                
+                
+            });
+        </script>
+        <link rel="stylesheet" href="results/calendar/examples/public/css/reset.css" type="text/css">
+        <link rel="stylesheet" href="results/calendar/public/css/metallic.css" type="text/css">
+        <link rel="stylesheet" href="results/calendar/examples/public/css/calendar.css" type="text/css">
+        <link type="text/css" rel="stylesheet" href="results/calendar/examples/libraries/syntaxhighlighter/public/css/shCoreDefault.css">
+        <script type="text/javascript" src="results/calendar/public/javascript/zebra_datepicker.js"></script>
+        <script type="text/javascript" src="results/calendar/examples/public/javascript/core.js"></script>
+
+        <script type="text/javascript">
+            SyntaxHighlighter.defaults['toolbar'] = false;
+            SyntaxHighlighter.all();
         </script>
 </head>
