@@ -6,12 +6,13 @@
 These rules are applied to all elements unless otherwise specified below.*/
 * { margin : 0 0px 0 0; 
 padding : 0; }
+
 h2, h3, h4, h5, p, ul, ol, hr { margin : 0 0px; padding: 0em; }
 
-/***** Removes the dotted outline in FireFox when image links are clicked on *****/
+/***** Removes the dotted outline in FireFox when image links are clicked on 
 a {text-decoration:none;}
 a:hover {text-decoration:underline;}
-
+*****/
 
 /* =html */
 /*This creates a persistent scroll bar in Firefox to prevent page jump*/
@@ -19,29 +20,36 @@ a:hover {text-decoration:underline;}
 html { overflow-y:auto; }
 
 /* =body */
-body{background: #ffffff url(../images/layout/MainBackground.jpg) top center  no-repeat;}
+body{
+	 font-family: 'Droid Sans', sans-serif;
+
+	background: #ffffff url(../images/layout/MainBackground.jpg) top center  no-repeat;}
 
 div#PageContainerOuter{width: 100%; background: url() center -488px no-repeat; position:relative; }
 
 div#PageContainer{top:15px; width: 1015px; margin: 0 auto;  }
 
-
+.block{
+	width:600px;
+}
 /*************************************
 	Header Styles
 *************************************/
 div#HeaderContainer {
-	height: 120px;
+	height: 140px;
 	width: 100%;
 	position: relative;
 	z-index: 20;
+	background: url(../images/layout/Main-Background22.jpg) repeat-x;
+	background-size: 13px 140px;
 	
 }
 
-div#HeaderContent{ width: 1050px; margin: 0 auto; height: 190px; background: url(../images/button/Header-Background.png) top center no-repeat; }
-div#SubHeader{ float: left; margin-top:10px; height: 20px;}
+div#HeaderContent{ width: 1050px; margin: 0 auto; height: 180px; background: url(../images/button/Header-Background.png) top center no-repeat; }
+div#SubHeader{ float: left; margin-top:10px; height: 30px;}
 
 div#HomeGalleryNavigation{ 
-	margin-top: 18px;
+	
 	margin-left: 1px;
 	/*background: url(../images/Neuromama_Finance.png) center no-repeat;*/
 	
@@ -113,21 +121,26 @@ span.style4{
 	line-height:0px;
 }
 .block_home_slider .slide {position:relative;}
-.block_home_slider .caption {padding:13px 16px 12px; position:absolute; left:0px; right:0px; bottom:0px; background:url(../wp-content/themes/business-news/images/bg_caption.png); text-align:left;}
+.block_home_slider .caption {padding:13px 16px 12px; position:absolute; left:0px; right:0px; bottom:0px;  text-align:left;}
 .block_home_slider .caption p {padding-bottom:0px; font-size:11px; color:#dedede; text-shadow:0px -1px #000000; line-height:17px;}
 .block_home_slider .caption p.title {padding-bottom:6px; font-size:15px; color:#ffffff; font-weight:bold; line-height:normal;}
-.block_home_slider .flex-direction-nav a {width:25px; height:25px; margin-top:-27px; display:block; position:absolute; top:50%; background-repeat:no-repeat; background-image:url(images/sprite_arrow_2.png); text-indent:-9000px;}
+.block_home_slider .flex-direction-nav a {width:25px; height:25px; margin-top:-27px; display:block; position:absolute; top:50%;  text-indent:-9000px;}
 .block_home_slider .flex-direction-nav a.flex-prev {left:6px; background-position:left top;}
 .block_home_slider .flex-direction-nav a.flex-prev:hover {background-position:left bottom;}
 .block_home_slider .flex-direction-nav a.flex-next {right:6px; background-position:right top;}
 .block_home_slider .flex-direction-nav a.flex-next:hover {background-position:right bottom;}
 .block_home_slider .flex-control-paging {padding-top:15px; display:inline-block;}
 .block_home_slider .flex-control-paging li {margin:0px; padding:0px; float:left; overflow:hidden;}
-.block_home_slider .flex-control-paging li a {width:12px; height:12px; display:block; background-repeat:no-repeat; background-image:url(../wp-content/themes/business-news/images/sprite_nav_3.png); text-indent:-9000px; cursor:pointer;}
+.block_home_slider .flex-control-paging li a {width:12px; height:12px; display:block; background-repeat:no-repeat; text-indent:-9000px; cursor:pointer;}
 .block_home_slider .flex-control-paging li a.flex-active {background-position:right top;}
 
-.right .sidebar { float:right;position:relative;}
-
+.sidebar { float:left;
+}
+.right_content{
+	float:right;
+	position:relative; 
+	width: 400px;
+}
 
 /*********************************************        Styles.css                       *********************************/
 .main_news{
@@ -186,13 +199,26 @@ table.main_keys_title td {
 
 
 
-.charts a:link { font-weight: bold;}
-.charts a:visited {}
-.charts a:active {}
-.charts a:hover {text-decoration: underline; color: blue;}
+.charts a:link { 
+	color: #333333;
+	}
+.charts a:visited { 
+	color: #333333;
+	}
+.charts a:hover { 
+	color: blue;
+	background-color: transparent;
+	text-decoration: none;
+	}
+.charts a:active { 
+	color: #333333;
+	}
 .charts{
-	font-size: 13px;
-	font-family: 'Lato';
+
+	text-align: left;
+	font-weight: 200;
+	font-size: 18px;
+	font-family: 'verdana';
 
 }
 .op_table{
@@ -252,7 +278,7 @@ table.main_keys_title td {
 	padding-bottom: 5px;
 	border-bottom: 2px solid #000;
 	font-family:  'Lato';
-	font-weight: 200px;
+	font-weight: 200;
 	font-size: 25.5px;
 	text-align: center;
 	color: #000;
@@ -260,27 +286,39 @@ table.main_keys_title td {
 	margin-bottom: 8px;
 }
 #cssmenu{
-	margin: 0 auto;
+	float: left;
+	width: 150px;
 }
 #cssmenu .hd{
 	padding-top: 5px;
 	padding-bottom: 10px;
 	font-family: 'Roboto', sans-serif;
-	font-size: 19px;
+	font-size: 13px;
 	text-align: center;
 	color: #000;
+}
+#cssmenu h2{
+	padding-top: 18px;
+	padding-bottom: 3px;
+	
+	color: #000;
+	background-color: transparent;
+	
+	text-align: center;
+	font-size: 16px;
+	width: 148px;
 }
 #cssmenu h3{
 	padding-top: 8px;
 	padding-bottom: 3px;
 	font-family:  Helvetica, Arial, sans-serif;
-	color: #383838;
-	background-color: #9a9a9a;
+	color: #fff;
+	background-color: #166880;
 	text-decoration: none;
 	text-transform: uppercase;
 	text-align: center;
 	font-size: 14px;
-	width: 248px;
+	width: 148px;
 }
 #cssmenu > ul {
 	list-style: none;
@@ -315,18 +353,18 @@ table.main_keys_title td {
 			border-top: 1px dotted #fff;
 			border-bottom: 1px dotted #d9d9d9;
 			padding: 4px 4px;
-			width: 240px;
+			width: 140px;
 
 			/* Typography */
 			font-family:  Helvetica, Arial, sans-serif;
-			color: #f06343;
+			color: #625488;
 			text-decoration: none;
 			text-transform: uppercase;
 			text-shadow: 0 1px 0 #fff;
-			font-size: 12px;
+			font-size: 10px;
 
 			/* Background & effects */
-			background: #eaeaea;
+			background: #ECF2F6;
 		}
 
 		/* Rounded corners for the first link of the menu/submenus */
@@ -348,11 +386,11 @@ table.main_keys_title td {
 		#cssmenu > ul li>a:hover, #cssmenu > ul li:hover>a {
 			color: #fff;
 			text-shadow: 0 1px 0 rgba(0, 0, 0, .2);
-			background: #f06343;
-			background: -webkit-linear-gradient(bottom, #f06343, #f27d63);
-			background: -ms-linear-gradient(bottom, #f06343, #f27d63); 
-			background: -moz-linear-gradient(bottom, #f06343, #f27d63);
-			background: -o-linear-gradient(bottom, #f06343, #f27d63);
+			background: #004A64;
+			background: -webkit-linear-gradient(bottom, #004A64, #009CC7);
+			background: -ms-linear-gradient(bottom, #004A64, #009CC7); 
+			background: -moz-linear-gradient(bottom, #004A64, #009CC7);
+			background: -o-linear-gradient(bottom, #004A64, #009CC7);
 			border-color: transparent;
 		}
 

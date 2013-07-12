@@ -1,10 +1,6 @@
-
-	<div id="cssmenu" style="height: 1280px; width: 240px;">
-		<div >
-			<div class="hd">
-			More On <b style="text-transform: uppercase;"><?php echo $symbol; ?></b>
-		</div>
+	<div id="cssmenu" style="height: 1280px;">
 		<div id='cssmenu'>
+			<h2>More On <b style="text-transform: uppercase;"><?php echo $symbol; ?></b></h2>
 			<h3>Quotes</h3>
 			<ul>
 				<li>
@@ -102,8 +98,5 @@
 					<a href="#S">Cash Flow</a>
 				</li>
 			</ul>
-		</div>
-		<div class="ft">
-		</div>
 		</div>
 	</div>

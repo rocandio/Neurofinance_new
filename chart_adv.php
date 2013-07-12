@@ -82,7 +82,7 @@
                                                         $i++;
                                                     }
                                                 ?>
-                                                &nbsp;&nbsp;
+                                                </br>
                                                 Type:
                                                 <?php
                                                     $count= count($types);
@@ -97,7 +97,7 @@
                                                         $i++;
                                                     }
                                                 ?>
-                                                &nbsp;&nbsp;
+                                                </br>
                                                 Scale:
                                                 <?php
                                                     $count= count($scales);
@@ -112,7 +112,7 @@
                                                         $i++;
                                                     }
                                                 ?>
-                                                &nbsp;&nbsp;
+                                                </br>
                                                 Size:
                                                 <?php
                                                     $count= count($sizes);
@@ -128,6 +128,7 @@
                                                     }
                                                 ?>  
                                             </p>
+                                        </br></br>
                                             <p class="charts">
                                                 Moving Avg:
                                                 <?php
@@ -145,7 +146,7 @@
                                                             echo "&nbsp;&nbsp;EMA: ";
                                                         }
                                                         if($i==12){
-                                                            echo "&nbsp;&nbsp;Overlays: ";
+                                                            echo "</br></br>Overlays: ";
                                                         }
                                                         if(in_array($TechInd1s[$i],$TechInd1array)){
                                                             $key = array_search($TechInd1s[$i], $TechInd1array);
@@ -165,14 +166,14 @@
                                                                     $j++;
                                                                 }
                                                             }
-                                                            echo "<a href=\"?s=".$symbol."&t=".$range."&q=".$type."&l=".$scale."&z=".$size."&c=".$compare."&p=".$p."&a=".$TechInd2."\">".$TechInd1names[$i]."</a>&nbsp;";
+                                                            echo "<a style=\"color:red;\" href=\"?s=".$symbol."&t=".$range."&q=".$type."&l=".$scale."&z=".$size."&c=".$compare."&p=".$p."&a=".$TechInd2."\">".$TechInd1names[$i]."</a>&nbsp;";
                                                         }else{
                                                             $count2 = count($TechInd1array);
                                                             $p = $TechInd1s[$i];
                                                             while($j<$count2){ 
                                                                 $p = $p.",".$TechInd1array[$j++];
                                                             }
-                                                            echo "<a href=\"?s=".$symbol."&t=".$range."&q=".$type."&l=".$scale."&z=".$size."&c=".$compare."&p=".$p."&a=".$TechInd2."\">".$TechInd1names[$i]."</a>&nbsp;";
+                                                            echo "<a style=\"color:green;\" href=\"?s=".$symbol."&t=".$range."&q=".$type."&l=".$scale."&z=".$size."&c=".$compare."&p=".$p."&a=".$TechInd2."\">".$TechInd1names[$i]."</a>&nbsp;";
                                                         }
                                                         $i++;
                                                     }
@@ -209,19 +210,20 @@
                                                                     $j++;
                                                                 }
                                                             }
-                                                            echo "<a href=\"?s=".$symbol."&t=".$range."&q=".$type."&l=".$scale."&z=".$size."&c=".$compare."&p=".$TechInd1."&a=".$p."\">".$TechInd2names[$i]."</a>&nbsp;";
+                                                            echo "<a style=\"color:red;\" href=\"?s=".$symbol."&t=".$range."&q=".$type."&l=".$scale."&z=".$size."&c=".$compare."&p=".$TechInd1."&a=".$p."\">".$TechInd2names[$i]."</a>&nbsp;";
                                                         }else{
                                                             $count2 = count($TechInd2array);
                                                             $p = $TechInd2s[$i];
                                                             while($j<$count2){ 
                                                                 $p = $p.",".$TechInd2array[$j++];
                                                             }
-                                                            echo "<a href=\"?s=".$symbol."&t=".$range."&q=".$type."&l=".$scale."&z=".$size."&c=".$compare."&p=".$TechInd1."&a=".$p."\">".$TechInd2names[$i]."</a>&nbsp;";
+                                                            echo "<a style=\"color:green;\" href=\"?s=".$symbol."&t=".$range."&q=".$type."&l=".$scale."&z=".$size."&c=".$compare."&p=".$TechInd1."&a=".$p."\">".$TechInd2names[$i]."</a>&nbsp;";
                                                         }
                                                         $i++;
                                                     }
                                                 ?>  
                                             </p>
+                                        </br></br>
                                             <form class="search_neuro cf" style="width:360px; float:left;" action="chart_adv.php" method="get">
                                                 <div style="width:290px;">
                                                     <p style="float:left; padding-top: 5px; padding-right: 10px; font-size: 14px; text-aling:left; color:#000"><strong><?php echo strtoupper($symbol);?></strong> Vs. </p>                                                  <input value="<?php echo $symbol;?>" name="s" type="hidden">
@@ -251,7 +253,7 @@
                                 </div>
                             </div>
 	            	</div>
-	            	<div class="right">
+	            	<div class="right_content">
 	            		 <div class="sidebar">
                         <?php
                         if (!$symbol=="") {
@@ -274,7 +276,7 @@
                         
                         ?>
                         </div>
-                        <div class="clearboth"></div>
+                        <?php include 'Banners/Banner6/index.html';?>
 	            	</div>
                 </div>
 			</div>

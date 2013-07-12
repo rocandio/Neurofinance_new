@@ -700,7 +700,7 @@
                         </tr>
                         <tr>
                           <td class="main_keys_th" width="74%">
-                            Last Split Date<span class="foo"><sup>3</sup></span>:
+                            Last Split Date<span class="foo"></span>:
                           </td>
                           <td class="main_keys_out">
                             <?php echo $info_keys->LastSplitDate;?>
@@ -726,7 +726,6 @@
                   </td>
                 </tr> -->
                 <br /><br />
-                <br /><br />
                 <tr>
                   <td align="left">
                     <small><strong>Abbreviation Guide:</strong> <strong>K</strong> =
@@ -741,21 +740,6 @@
                     <small><strong>lfy</strong> = Last Fiscal Year (as of Dec 31,
                     2012)</small><br />
                     <small><strong>fye</strong> = Fiscal Year Ending</small><br />
-                    <span class="foo"><sup>1</sup></span> <small>Data provided by Thomson
-                    Reuters</small><br />
-                    <span class="foo"><sup>2</sup></span> <small>Data provided by EDGAR
-                    Online</small><br />
-                    <span class="foo"><sup>3</sup></span> <small>Data derived from
-                    multiple sources or calculated by Yahoo! Finance</small><br />
-                    <span class="foo"><sup>4</sup></span> <small>Data provided by
-                    Morningstar, Inc.</small><br />
-                    <span class="foo"><sup>5</sup></span> <small>Shares outstanding is
-                    taken from the most recently filed quarterly or annual report and
-                    Market Cap is calculated using shares outstanding.</small><br />
-                    <span class="foo"><sup>6</sup></span> <small>EBITDA is calculated by
-                    Capital IQ using methodology that may differ from that used by a
-                    company in its reporting</small><br />
-                    <br />
                     <small>Currency in USD.</small>
                   </td>
                 </tr>
@@ -765,3 +749,5 @@
         </tr>
       </tbody>
     </table>
+  </br>
+</br>

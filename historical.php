@@ -71,7 +71,7 @@
                                                     </div>
                                                 </form>
                                                 <div style="position:relative; padding-bottom:15px;">
-                                                    <table  style="margin:0 auto; background-color:#ECF2F6;">
+                                                    <table class="main_keys_title" style="margin:0 auto;">
                                                     <?php
                                                         if($sD>$eD){
                                                             echo "INVALID DATE RANGE";
@@ -93,12 +93,12 @@
                                                                 }           
                                                                 else{
                                                                     foreach($array[0] as $field){
-                                                                        echo "<th style=\" border:2px solid#166880;\">".$field."</th>";
+                                                                        echo "<th>".$field."</th>";
                                                                     }
                                                                     foreach(array_slice($array, 1, null, true) as $item){
                                                                         echo "<tr>";
                                                                         foreach($item as $field){
-                                                                            echo "<td style=\" padding:10px; border-bottom:1px solid#166880;\">".$field."</td>";
+                                                                            echo "<td>".$field."</td>";
                                                                         }
                                                                         echo "</tr>";
                                                                     }
@@ -123,7 +123,7 @@
                                 </div>
                         </div>
 	            	</div>
-	            	<div class="right">
+	            	<div class="right_content">
 	            		 <div class="sidebar">
                         <?php
                         if (!$symbol=="") {

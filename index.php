@@ -23,29 +23,12 @@
 	                        <div id="home_slider" class="flexslider">
 	                            <div class="border_box">
 	                                <div class="box_skitter box_skitter_large">
-	                                    <ul>
-	                                        <li><img class="block"src="http://i2.cdn.turner.com/money/dam/assets/130628152842-student-studying-620xa.jpg" width="580px"><div class="label_text"><p>STUDENT RATES TO DOUBLE MONDAY<p></div></li>
-	                                        <li><img class="block"src="http://i2.cdn.turner.com/money/dam/assets/130627144357-hurt-rate-spike-620xa.jpg" width="580px"><div class="label_text"><p>STUDENT RATES TO DOUBLE MONDAY<p></div></li>
-	                                        <li><img class="block"src="http://i2.cdn.turner.com/money/dam/assets/130628125235-lookahead-chart-620xa.png" width="580px"><div class="label_text"><p>STUDENT RATES TO DOUBLE MONDAY<p></div></li>
-	                                        <li><img class="block"src="http://i2.cdn.turner.com/money/dam/assets/130628113556-fslr-v-sp-500-620xa.png" width="580px"><div class="label_text"><p>STUDENT RATES TO DOUBLE MONDAY</p></div></li>
-	                                        <?php /*
-	                                            $i=0;
-	                                            $url = "http://news.google.com/?ned=us&topic=t&output=rss"; // url of google news
-	                                            $xml = simplexml_load_file('http://rss.cnn.com/rss/money_topstories.rss'); //loading the document
-	                                            $items = $xml->channel->item; //gets the title of the document.     
-	                                            //echo "<article  class=\"block_topic_post\">";
-	                                            foreach($items as $item){
-	                                                if($i<5){
-	                                                    //echo "<div id=\"news$i\">";
-	                                                    $i++;
-	                                                    $full_image = str_replace("-120x90","",$item->children('media',true)->attributes()->url);
-	                                                    //echo "<li><a href=\"".$item->link."\" target=\"_blank\"><img src=\"".$item->children('media',true)->attributes()->url."\" class=\"block\"/></a><div class=\"label_text\"><p>".$item->title."</p></div></li>";
-	                                                    echo "<li><img src=\"$full_image\" class=\"block\"/><div class=\"label_text\"><p>".$item->title."</p></div></li>";
-	                                                }
-	                                                else
-	                                                    break;
-	                                            }*/
-	                                        ?>
+	                                    <ul> <!-- here is were need to add some images of news-->
+	                                        <li><img class="block"src="http://i2.cdn.turner.com/money/dam/assets/130628152842-student-studying-620xa.jpg" width="580px"><div class="label_text"><p>Financial Reports<p></div></li>
+	                                        <li><img class="block"src="http://i2.cdn.turner.com/money/dam/assets/130627144357-hurt-rate-spike-620xa.jpg" width="580px"><div class="label_text"><p>Neuromama Finance<p></div></li>
+	                                        <li><img class="block"src="http://i2.cdn.turner.com/money/dam/assets/130628125235-lookahead-chart-620xa.png" width="580px"><div class="label_text"><p>Stock Quotes<p></div></li>
+	                                        <li><img class="block"src="http://i2.cdn.turner.com/money/dam/assets/130628113556-fslr-v-sp-500-620xa.png" width="580px"><div class="label_text"><p>Markets</p></div></li> 
+	                                       
 	                                    </ul>
 	                                </div>
 	                            </div>
@@ -102,11 +85,14 @@
                         </div>
 		            	</div>
 	            	</div>
-	            	<div class="right">
+	            	<div class="right_content">
 	            		 <div class="sidebar">
                             <script src="http://markets.financialcontent.com/stocks?Module=snapshot&Ticker=$COMP+NERO+GOOG+FB+AMZN&Output=JS"></script>
-                            <img src="wp-content/themes/business-news/images/a_1.png">
+                            <!-- <img src="Banners/Banner7/wpimages/Bnr1-1.png"> --><?php
+                        	include 'Banners/Banner7/index.html';
+                        ?>
                         </div>
+                        
 	            	</div>
                 </div>
 			</div>

@@ -1,4 +1,5 @@
 <head>
+	<title>Finance Neuromama</title>
 	<link rel="shortcut icon" href="images/neuro_ico.ico" type="image/x-icon" />
 	<link rel="icon" href="images/neuro_ico.ico" type="image/ico" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
@@ -14,6 +15,7 @@
 	<!-- CSS -->
 	<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen">
 	<link href="css/nav.css" rel="stylesheet" type="text/css" media="screen">
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Orienta' rel='stylesheet' type='text/css'>
@@ -96,21 +98,13 @@
                 });
                 
             });
-            $(document).load(function() {
-                $('.p_news a img').hide();
-                
-                
-            });
+            
         </script>
-        <link rel="stylesheet" href="results/calendar/examples/public/css/reset.css" type="text/css">
         <link rel="stylesheet" href="results/calendar/public/css/metallic.css" type="text/css">
         <link rel="stylesheet" href="results/calendar/examples/public/css/calendar.css" type="text/css">
         <link type="text/css" rel="stylesheet" href="results/calendar/examples/libraries/syntaxhighlighter/public/css/shCoreDefault.css">
         <script type="text/javascript" src="results/calendar/public/javascript/zebra_datepicker.js"></script>
         <script type="text/javascript" src="results/calendar/examples/public/javascript/core.js"></script>
 
-        <script type="text/javascript">
-            SyntaxHighlighter.defaults['toolbar'] = false;
-            SyntaxHighlighter.all();
-        </script>
+        
 </head>

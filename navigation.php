@@ -25,7 +25,7 @@
 			
 			<ul id="nav">
 			
-				<li onmouseover=painttab(1); onmouseout=unpainttab(1);><a href="index.php" class="btn-neuinf">Home</a>
+				<li onmouseover=painttab(1); onmouseout=unpainttab(1);><a href="http://finance.neuromama.com/" class="btn-neuinf">Home</a>
 					
 				</li> 
 				
@@ -85,23 +85,23 @@
 				
 				
 				<li onmouseover=painttab(7); onmouseout=unpainttab(7);><a href="#" onclick="return false;" class="btn-neusmart2">Personal Financial</a>
-					<ul onmouseover=painttab(7); onmouseout=unpainttab(7);>
+					<!-- <ul onmouseover=painttab(7); onmouseout=unpainttab(7);>
 						<li style="padding-top: 8px; padding-bottom: 5px;"><a href=" " >12</a></li>
-					</ul> 
+					</ul>  -->
 				</li> 
 				
 				
 				<li onmouseover=painttab(8); onmouseout=unpainttab(8);><a href="#" onclick="return false;" class="btn-neuvac1">Forex</a>
-					<ul onmouseover=painttab(8); onmouseout=unpainttab(8);>
+					<!-- <ul onmouseover=painttab(8); onmouseout=unpainttab(8);>
 						<li style="padding-top: 8px; padding-bottom: 5px;"><a href=" " >12</a></li>
-					</ul> 
+					</ul>  -->
 				</li> 
 				
 				
 				<li onmouseover=painttab(9); onmouseout=unpainttab(9);><a href="#" onclick="return false;" class="btn-neuvac2">ssss</a>
-					<ul onmouseover=painttab(9); onmouseout=unpainttab(9);>
+					<!-- <ul onmouseover=painttab(9); onmouseout=unpainttab(9);>
 						<li style="padding-top: 8px; padding-bottom: 5px;"><a href=" " >12</a></li>
-					</ul> 
+					</ul>  -->
 				</li> 
 			</ul>
 		</div>
@@ -113,7 +113,7 @@
                     <input class="searchbutton" id='find_symbol' value="Go"  type="submit"/>
                 </form>
 			</div>
-			<span style="font-family: 'Didact Gothic',sans-serif; font-size: 14px; color: #fff"><strong>Fewer duplicates, more accurate returns, faster results, Frequent Searcher Rewards for gift certificates. Join now!</strong></span></div>
+			<span style="top:10px;font-family: 'Didact Gothic',sans-serif; font-size: 12px; color: #fff"><strong>Fewer duplicates, more accurate returns, faster results, Frequent Searcher Rewards for gift certificates. Join now!</strong></span></div>
 			
 		<!-- /HeaderNavigation -->
 	</div>

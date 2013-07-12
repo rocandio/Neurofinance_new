@@ -2,6 +2,10 @@
 	require 'functions/YQL_functions.php';
     $symbol = $_GET['s'];
     $option = $_GET['o'];
+    if (strtoupper($symbol)=="DJIA" || strtoupper($symbol)=="^DJIA") {
+        # code...
+        $symbol = "";
+    }
 
     $info=quotes($symbol,'select * from yahoo.finance.quotes where symbol=');
     $info_keys=keystats($symbol,'select * from yahoo.finance.keystats where symbol=');
@@ -39,18 +43,17 @@
                                       
                                     ?>
                                 </div>
-                        	</div>      
                         </div>
                         
 	            	</div>
-	            	<div class="right">
-	            		 <div class="sidebar">
+	            	<div class="right_content">
+	            		<div class="sidebar">
                         <?php
                         if (!$symbol=="") {
                             # code...
                             if(!empty($info->ErrorIndicationreturnedforsymbolchangedinvalid)){
                                 echo "<div id=\"nav_bar_stock\" style=\"height: 1280px; width: 300px;\">";
-                                echo "<div class=\"error_stock\">Symbol stock not found</div>";
+                                echo "<div class=\"error_stock\">Stock symbol not found</div>";
                                 echo "</div>";      
                             }
                             else{
@@ -59,14 +62,16 @@
                         } else {
                             # code...
                             echo "<div id=\"nav_bar_stock\" style=\"height: 1280px; width: 300px;\">";
-                                echo "<div class=\"error_stock\">Symbol stock not found</div>";
+                                echo "<div class=\"error_stock\">Stock symbol not found</div>";
                                 echo "</div>";
-                                echo "<img src=\"wp-content/themes/business-news/images/Advertising.png\"></img>";
+                                
+                                
                         }
                         
                         ?>
+
                         </div>
-                        <div class="clearboth"></div>
+                        <?php include 'Banners/Banner6/index.html';?>
 	            	</div>
                 </div>
 			</div>

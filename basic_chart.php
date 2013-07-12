@@ -147,7 +147,7 @@
                                 </div>
                             </div>
 	            	</div>
-	            	<div class="right">
+	            	<div class="right_content">
 	            		 <div class="sidebar">
                         <?php
                         if (!$symbol=="") {
@@ -170,7 +170,7 @@
                         
                         ?>
                         </div>
-                        <div class="clearboth"></div>
+                        <?php include 'Banners/Banner6/index.html';?>
 	            	</div>
                 </div>
 			</div>

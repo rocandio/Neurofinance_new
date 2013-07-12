@@ -1,0 +1,25 @@
+﻿<!-- Banner -->
+<div style="position: absolute; overflow:Hidden; width: 303px; height: 305px;">
+<a href='http://neuromama.com'>
+	<img id="Bnr1-1" src="Banners/Banner7/wpimages/Bnr1-1.png" alt="" style="position: absolute; top: 0; left: 0;" />
+</a>
+
+		<script>
+		$('#Bnr1-1').fadeIn(1);
+		$('#Bnr1-2').hide();//.fadeIn(900).animate({left: '+100px'},100,"swing");
+		var tiempolectura=7000;
+		var tiempotransicion=4000;
+		
+	$(function loopingImg(){
+			$('#Bnr1-1').animate({left: '0px'},0,"linear");
+			$('#Bnr1-1').delay(tiempolectura).animate({left: '-303px'},tiempotransicion,"linear");
+			$('#Bnr1-1').delay(tiempolectura).animate({left: '-606px'},tiempotransicion,"linear");
+			$('#Bnr1-1').delay(tiempolectura).animate({left: '-909px'},tiempotransicion,"linear");
+			loopingImg();
+			
+		
+		
+
+	})();
+	</script>	
+</div>

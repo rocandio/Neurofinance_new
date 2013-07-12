@@ -62,10 +62,12 @@
                         </div>
 		            	</div>
 	            	</div>
-	            	<div class="right">
+	            	<div class="right_content">
 	            		 <div class="sidebar">
                             <script src="http://markets.financialcontent.com/stocks?Module=snapshot&Ticker=$COMP+NERO+GOOG+FB+AMZN&Output=JS"></script>
-                            <img src="wp-content/themes/business-news/images/a_1.png">
+                            <?php
+                            include 'Banners/Banner7/index.html';
+                        ?>
                         </div>
 	            	</div>
                 </div>

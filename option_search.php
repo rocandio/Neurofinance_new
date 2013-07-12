@@ -83,7 +83,7 @@
                         
                         ?>
                         </div>
-                        <div class="clearboth"></div>
+                        <?php include 'Banners/Banner6/index.html';?>
 	            	</div>
                 </div>
 			</div>

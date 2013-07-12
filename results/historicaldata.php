@@ -1,15 +1,15 @@
-<link rel="stylesheet" href="results/calendar/examples/public/css/reset.css" type="text/css">
+<!-- <link rel="stylesheet" href="results/calendar/examples/public/css/reset.css" type="text/css">
 <link rel="stylesheet" href="results/calendar/public/css/metallic.css" type="text/css">
 <link rel="stylesheet" href="results/calendar/examples/public/css/calendar.css" type="text/css">
 <link type="text/css" rel="stylesheet" href="results/calendar/examples/libraries/syntaxhighlighter/public/css/shCoreDefault.css">
 
 <script type="text/javascript" src="results/calendar/examples/public/javascript/jquery-1.10.1.js"></script>
 <script type="text/javascript" src="results/calendar/public/javascript/zebra_datepicker.js"></script>
-<script type="text/javascript" src="results/calendar/examples/public/javascript/core.js"></script>
+<script type="text/javascript" src="results/calendar/examples/public/javascript/core.js"></script> -->
 
 <script type="text/javascript">
-    SyntaxHighlighter.defaults['toolbar'] = false;
-    SyntaxHighlighter.all();
+    // SyntaxHighlighter.defaults['toolbar'] = false;
+    // SyntaxHighlighter.all();
 </script>
 
 <?php 
@@ -54,7 +54,7 @@
 			</div>
 		</form>
 		<div style="position:relative; padding-bottom:15px;">
-			<table  style="margin:0 auto; background-color:#ECF2F6;">
+			<table  id="table_keys" style="margin:0 auto;">
 			<?php
 				if($sD>$eD){
 					echo "INVALID DATE RANGE";
